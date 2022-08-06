@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Eleccion de la llave correcta</h1>
+    </header>
+    <div class="opciones" onclick="desplegar()">
+        <div>
+            <input type="radio" name="llaves" class="llave-1">
+            <label >Llave 1</label>
+        </div>
+        <div>
+            <input type="radio" name="llaves" class="llave-2">
+            <label >Llave 2</label>
+        </div>
+        <div>
+            <input type="radio" name="llaves" class="llave-3">
+            <label >Llave 3</label>
+        </div>
+        <div>
+            <input type="radio" name="llaves" class="llave-4">
+            <label >Llave 4</label>
+        </div>
+    </div>
+    <div class="mayor">
+        <div class="cambia"></div>
+        <div class="boton">
+            <button onclick="completar()">Elegir esta llave</button>
+        </div>
+    </div>
+   
+    <form class="contenedor">
+        <input type="text" class="como" placeholder="Nombre de la llave" required=" ">
+        <input type="submit" onclick="resolucion()" name="Confirmar la llave">
+    </form>
+    <script src="/index.js"></script>
+</body>
+</html>

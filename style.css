@@ -1,0 +1,52 @@
+body {
+    overflow-x: hidden;
+    color: #222;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #89d;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #222;
+    margin-bottom: 30px;
+}
+.opciones{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.mayor{
+    display: flex;
+    flex-direction: row;
+}
+.cambia{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    border: 3px solid #222;
+    background-color: gold;
+}
+.boton{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+button{
+    margin-top: 180px;
+    height: 50px;
+}
+.contenedor{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+.imagen{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+}
